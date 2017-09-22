@@ -2,7 +2,7 @@
 <html lang="zh-cmn-Hans">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>XiaoLinDesign</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,12 +39,6 @@
         <div class="clearfix"></div>
     </dl>
 </div>
-    <script>
-    $(".small_nav").click(
-        function () {
-            $(".small_nav dl").toggleClass("show")
-        })
-</script>
     <div class="show_box">
     <div class="content"><img src="http://ofn6njofy.bkt.clouddn.com/xiaolinlaika.jpg">
         <h1>徕卡相机三折页</h1><img src="http://ofn6njofy.bkt.clouddn.com/xiaolintjeyes.jpg">
@@ -62,5 +56,10 @@
 
     </div>
 </div>
+    <script>
+        document.querySelector('.small_nav').addEventListener('click',function (e) {
+            this.querySelector('dl').classList.toggle('show')
+        })
+    </script>
 </body>
 </html>

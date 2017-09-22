@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="utf-8">
+    <title>XiaoLinDesign</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/resume.css" rel="stylesheet" type="text/css">
+    <link href="styles/animate.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--header-->
+<div class="side_nav">
+    <a href="home.html"><img src="http://ofn6njofy.bkt.clouddn.com/xl/ui/sidenav_logo.png"></a>
+    <ul>
+        <li><a href="products.html">平面设计</a></li>
+        <li><a href="webpage.html">网页设计</a></li>
+        <li><a href="draw.html" class="current">手绘作品</a></li>
+        <li><a href="ui_design.html">UI作品</a></li>
+    </ul>
+    <dl>
+        <dd><a href="photograph.html">关于摄影<img src="http://ofn6njofy.bkt.clouddn.com/xl/ui/nav_jiantou.png"></a></dd>
+        <dd><a href="contact.html">联系方式<img src="http://ofn6njofy.bkt.clouddn.com/xl/ui/nav_jiantou.png"></a></dd>
+    </dl>
+</div>
+<div class="small_nav">
+    <img src="http://ofn6njofy.bkt.clouddn.com/xl/ui/nav_btn.png">
+    <dl>
+        <dd><a href="home.html">首页</a></dd>
+        <dd><a href="products.html">平面设计</a></dd>
+        <dd><a href="webpage.html">网页设计</a></dd>
+        <dd><a href="draw.html">手绘作品</a></dd>
+        <dd><a href="ui_design.html">UI作品</a></dd>
+        <dd><a href="photograph.html">关于摄影</a></dd>
+        <dd><a href="contact.html">联系我</a></dd>
+        <div class="clearfix"></div>
+    </dl>
+</div>
+<div class="show_box">
+    <div class="content"><img src="http://ofn6njofy.bkt.clouddn.com/xl/draw/ma.jpg"><h1>蜕变_分解的马</h1><img src="http://ofn6njofy.bkt.clouddn.com/xl/draw/cat.jpg"><h1>发现真相 的小喵喵装饰画</h1></div>
+    <div class="content"><img src="http://ofn6njofy.bkt.clouddn.com/xl/draw/icon.jpg"><h1>时光的记忆主题图标手绘稿</h1><img src="http://ofn6njofy.bkt.clouddn.com/xl/draw/banma.jpg"><h1>斑马</h1></div>
+</div>
+
+
+<script>
+    document.querySelector('.small_nav').addEventListener('click',function (e) {
+        this.querySelector('dl').classList.toggle('show')
+    })
+</script>
+</body>
+</html>
